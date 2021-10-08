@@ -1,0 +1,490 @@
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: royalblue;
+}
+/* ------------------ HEADER ------------------ */
+
+header{
+    background-color: white;
+}
+ .hole{
+    display: flex;
+    justify-content: space-between;
+ }
+
+.menu a {
+    
+    text-decoration: none;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: slategray;
+    margin: 20px;
+}
+
+.menu a:hover {
+    
+    background-color:dimgray ;
+    color: ghostwhite;
+    border-radius: 10px;
+}
+
+
+
+.menu{
+    padding: 40px;
+}
+
+header a img{
+    width: 450px;
+}
+
+
+
+/* ------------------ Main ------------------ */
+
+.hclass{
+    text-align: center;
+    color: white;
+}
+
+.pclass{
+    text-align: center;
+    color: white;
+}
+.mainsect{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 5%;
+}
+.mainsect2{
+    background-color: gold;
+}
+.elm3{
+
+    text-align: center;
+    background-color: whitesmoke;
+    box-shadow: -1em 0 .4em black;;
+    width: 400px;
+    height: 400px;
+    border-radius: 25px;
+    color: blue;
+}
+.couleur{
+    background-color: white;
+}
+.taille{
+    width: 100px;
+}
+.sect1{
+    display: flex;
+    justify-content: space-around;
+}
+.pro1{
+    background-color: gold;
+}
+
+
+/* ------------------ FOOTER ------------------ */
+footer{
+    background-color: tomato;
+}
+
+.f1{
+    display: flex;
+    justify-content: space-around;
+    padding: 70px;;
+}
+
+.elm{
+    width: 300px;
+    height: 100px;
+
+}
+.img{
+    width: 200px;
+}
+.ordre{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.ordre a{
+    text-decoration: none;
+    font-family: "PT Sans Narrow";
+    font-weight: bold;
+    color: white;
+}
+
+.pr{
+    background-color: yellow;
+    text-decoration: none;
+    border-radius: 45px;
+   padding: 6px;
+}
+
+
+
+/* ------------------STYLE FFREDERICk ------------------ */
+
+/* fred-css */
+#fredok{text-align: center;
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-size: 18px;
+        background-color: steelblue;}
+.fred{color: rgb(53, 1, 1);
+        text-align: center;}
+.frede{color: rgb(75, 71, 58);
+        text-align: center;}
+.titre{color:rgb(199, 199, 38)}
+#innovlab{ width: 496px; height:342px}
+#paragraphe{display: flex;
+                justify-content: center;
+                text-align: justify;}
+#P2{color: white;
+        text-align:initial;
+        margin-left: 20px;     
+        margin-right: 20px;}
+p{color: white;}
+ul{color: white;}
+.class{color:"black"}
+#tab{display: flex;
+    justify-content: space-evenly;}
+.ellement{width: 500px;
+        height:600px;
+        background-color: lightyellow;
+        justify-content: space-between;
+        color: black;
+        text-align: left;}
+ul{color: black;}
+.colonne{color: white;}
+.par1{color: black;}
+.lien{background-color: rgb(229, 243, 26);
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 45Px;
+    margin: 640px;
+    }
+.liste2{color: white;
+        text-align: left;}
+.liste3{color: white;}
+a.couleur:link{color: yellow;}
+a.couleur:visited{color: yellowgreen;}
+/* fred-css-fin */
+
+
+/* ------------------STYLE FI ------------------ */
+
+#security{
+  display: flex;
+  justify-content: space-evenly;
+
+  
+}
+.element{
+
+  width: 300px;
+  height: 500px;
+  background-color: rgb(231, 227, 227);
+}
+.video{
+  display: flex;
+  justify-content: space-around;
+}
+.image{
+  display: flex;
+  justify-content: space-around;
+}
+
+/* ------------------STYLE FATIM-ZAHRA ------------------ */
+
+#grostitre {
+    font-size: large;
+    color: white;
+}
+
+#petittitre {
+    font-size: smaller;
+    color: gray;
+}
+
+#vid {
+    align-items: center;
+}
+
+.interieurannée {
+    color: rgb(171, 130, 187);
+}
+
+.titreannée{
+    color: #263f92;
+}
+
+.livreimage {
+    align-self: center;
+}
+#années{
+    display: flex;
+    justify-content: space-around;
+}
+.element{
+    width: 300px;
+    height:600px;
+    background-color: white;
+    padding:10px;
+}
+
+#tableau {
+  
+    display: flex;
+    justify-content: center;
+}
+.table{ 
+     border-width:1px; 
+    border-style:inset; 
+    border-color:black; 
+    background-color: white;
+    width:50%;
+   
+    text-align: center;
+
+}
+
+.link {
+    color: black;
+}
+.ecriture {
+    color: rgb(117, 10, 15);
+    text-align: center;
+}
+
+
+
+
+/* PARTIE DE THIBAULT */
+
+body { background-color: #275fa0;}
+
+#contactbody { background-color: #88c1d0; }
+
+#ai-article
+{
+    margin-left: 10%;
+    margin-right: 10%;
+
+    height: 1000px;
+
+    border: 2px solid red;
+}
+
+#logoheader
+{
+    width: 25%;
+    height: auto;
+
+    padding-left: 2%;
+}
+
+#midbanner
+{
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#midbanner h1
+{
+    font-family: Consolas;
+    font-size: 280%;
+    text-align: center;
+    color: white;
+
+    padding-top: 2%;
+}
+
+#form-banner
+{
+    background-color: white;
+
+    margin-top: 7%;
+    height: 110%;
+}
+
+#form-banner h1
+{
+    padding-left: 4%;
+    padding-top: 6%;
+
+    text-align: left;
+    font-size: 200%;
+    color: #275fa0;
+}
+
+textarea
+{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18;
+    
+    padding-top: 15px;
+    padding-left: 15px;
+
+    width: 95%;
+}
+
+.form /* le container qui contient les forms */
+{
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.form select /* les sélecteurs du form */
+{
+    height: 50px;
+    width: 46.8%;
+}
+
+.form input /* les champs texte du form */
+{
+    height: 50px;
+    width: 44.8%;
+}
+
+.form * /* l'ensemble les champs du form */
+{
+    margin: 15px;
+
+    padding-left: 15px;
+
+    font-size: 18;
+    color: #2371c3;
+}
+
+#address { width: 95%; }
+
+#bouton
+{
+    width: 10%;
+    float: right;
+
+    border: 1px solid #263F92;
+    border-radius: 45px;
+
+    color: white;
+
+    background-color: #263F92;
+}
+
+#bottom-page
+{
+    margin-top: -10%;
+    margin-bottom: -8px;
+    margin-left: -8px;
+    margin-right: -8px;
+
+    height: 1200px;
+
+    background-color: white;
+}
+
+#infos
+{
+    font-family: Consolas;
+    font-size: 200%;
+    text-align: left;
+    color: #263F92;
+
+    margin-left: 10%;
+
+    padding-top: 20%;
+}
+
+#infos p { font-size: 65%; }
+
+#reseaux { display: inline-block; }
+
+#brochure { font-weight: bold; }
+
+#maps
+{
+    margin-top: 5%;
+    width: 90%;
+}
+
+#article-ia
+{
+    font-size: 18px;
+    line-height: 135%;
+}
+
+#article-ia a
+{
+    text-decoration: none;
+    color: #2e93d2;
+}
+
+#ia-article
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 15%;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#conteneur-ia { margin-right: 5%; }
+
+#conteneur-formations
+{
+    margin-left: 10%;
+    margin-right: 10%;
+    margin-top: 30px;
+
+    display: flex;
+    justify-content: space-between;
+}
+
+.formation
+{
+    width: 30%;
+    height: fit-content;
+    background-image: linear-gradient(to bottom, rgba(255,255,255,1), rgba(255,255,255,0));
+}
+
+.ampoule
+{
+    display: block;
+    
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 10%;
+
+    height: 50%;
+    width: auto;
+}
+
+.formation-ia
+{
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+#main-body
+{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+ul
+{
+    color: green;
+}
+
+/* FIN DE LA PARTIE DE THIBAULT */
